@@ -6,6 +6,7 @@
     sticky
 */
 #header{
+    width:100%;
     text-align: center;
     position: fixed;
     background-color:blue;
@@ -13,6 +14,11 @@
     margin: 0 auto;
 }
 
+#header h1{
+    display: inline-block;
+    border-radius: 50px;
+    border: 4px solid black;
+}
 #nav{
     max-width: 100%;
     background: #ccc;
